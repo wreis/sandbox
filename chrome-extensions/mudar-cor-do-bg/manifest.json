@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Black background",
+  "description": "Muda o background da página",
+  "version": "1.0",
+  "content_scripts" : [{
+    "matches":["http://*/*","https://*/*"],
+    "js":["script.js"]
+  }],
+  "permissions": ["tabs","http://*/*","https://*/*"]
+}
